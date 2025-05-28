@@ -29,6 +29,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.btn,
+.dropdown-menu {
+  border-radius: 0px;
+}
+
 /* ---General rules---- */
 
 .wrapper {
@@ -45,12 +51,14 @@ main.main {
 .header-top-phone a {
   text-decoration: none;
 }
-.header-top-phone a:hover{
-    text-decoration: underline;
+.header-top-phone a:hover {
+  text-decoration: underline;
 }
 
 ul.social-icons {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 ul.social-icons li {
@@ -73,6 +81,12 @@ ul.social-icons a:hover {
   background-color: var(--contrast-color);
   color: var(--accent-color);
 }
+
+.header-top .btn {
+  background-color: var(--bg-color);
+  color: var(--contrast-color);
+}
+
 /* ---Header rules---- */
 
 /* ---Header rules---- */
